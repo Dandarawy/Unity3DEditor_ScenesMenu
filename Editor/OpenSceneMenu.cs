@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 public class OpenSceneMenu {
     private static bool initialized = false;
     private static string thisScriptLocation;
-    //[MenuItem("OpenScene/Refresh")]
+    [MenuItem("OpenScene/Refresh")]
     public static void Refresh()
     {
         if (initialized) 
